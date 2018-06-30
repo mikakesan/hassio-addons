@@ -17,6 +17,6 @@ RUN apt-get update \
 COPY run_addon.sh /
 RUN chmod a+x /run_addon.sh
 
-USER grafana
+USER 104
 
 ENTRYPOINT [ "/run_addon.sh" ]
